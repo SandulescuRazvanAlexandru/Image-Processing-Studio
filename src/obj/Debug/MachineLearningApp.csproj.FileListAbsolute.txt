@@ -1,0 +1,131 @@
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\MachineLearningApp_V1.exe.config
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\MachineLearningApp_V1.exe
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\MachineLearningApp_V1.pdb
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\alglibnet2.dll
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\ControlUtilizator.dll
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp.Form1.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp.Form2.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp.Form3.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp.Form4.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp.Form5.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.Properties.Resources.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp.csproj.GenerateResource.cache
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp.csproj.CoreCompileInputs.cache
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp.csproj.CopyComplete
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.exe
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.pdb
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp.csprojAssemblyReference.cache
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x64\concrt140.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x64\cvextern.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x64\msvcp140.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x64\msvcp140_1.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x64\msvcp140_2.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x64\msvcp140_codecvt_ids.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x64\opencv_videoio_ffmpeg440_64.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x64\vcruntime140.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x64\vcruntime140_1.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x86\concrt140.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x86\cvextern.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x86\msvcp140.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x86\msvcp140_1.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x86\msvcp140_2.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x86\msvcp140_codecvt_ids.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x86\opencv_videoio_ffmpeg440.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\x86\vcruntime140.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\MachineLearningApp.exe.config
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\MachineLearningApp.exe
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\MachineLearningApp.pdb
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\alglibnet2.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\ControlUtilizator.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\Emgu.CV.Bitmap.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\Emgu.CV.Platform.NetStandard.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\OpenTK.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\OpenTK.GLControl.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\System.Drawing.Common.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\ZedGraph.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\Emgu.CV.Bitmap.xml
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\Emgu.CV.Platform.NetStandard.xml
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\OpenTK.xml
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\OpenTK.GLControl.xml
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\ZedGraph.xml
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\de\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\es\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\fr\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\hu\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\it\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\ja\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\pt\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\ru\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\sk\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\sv\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\tr\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp.csprojAssemblyReference.cache
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\_MachineLearning.DrawArea.resources
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp_.Form1.resources
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp_.Form2.resources
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp_.Form3.resources
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\Machine_Learning_App_.Form4.resources
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp.Properties.Resources.resources
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp.csproj.GenerateResource.cache
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp.csproj.CoreCompileInputs.cache
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp.csproj.CopyComplete
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp.exe
+D:\Others\Visual Studio\source\MachineLearningApp\obj\Debug\MachineLearningApp.pdb
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x64\concrt140.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x64\cvextern.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x64\msvcp140.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x64\msvcp140_1.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x64\msvcp140_2.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x64\msvcp140_codecvt_ids.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x64\opencv_videoio_ffmpeg440_64.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x64\vcruntime140.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x64\vcruntime140_1.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x86\concrt140.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x86\cvextern.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x86\msvcp140.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x86\msvcp140_1.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x86\msvcp140_2.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x86\msvcp140_codecvt_ids.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x86\opencv_videoio_ffmpeg440.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\x86\vcruntime140.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\MachineLearningApp.exe.config
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\MachineLearningApp.exe
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\MachineLearningApp.pdb
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\Emgu.CV.Bitmap.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\Emgu.CV.Platform.NetStandard.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\OpenTK.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\OpenTK.GLControl.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\System.Drawing.Common.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\ZedGraph.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\Emgu.CV.Bitmap.xml
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\Emgu.CV.Platform.NetStandard.xml
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\OpenTK.xml
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\ZedGraph.xml
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\MachineLearningApp.Properties.Resources.resources
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\MachineLearningApp.csproj.GenerateResource.cache
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\MachineLearningApp.csproj.CoreCompileInputs.cache
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\MachineLearningApp.csproj.CopyComplete
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\MachineLearningApp.exe
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\MachineLearningApp.pdb
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\MachineLearningApp.csprojAssemblyReference.cache
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\ComponentLearning_1.Form1.resources
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\ComponentLearning_1.Form2.resources
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\ComponentLearning_1.Form3.resources
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\ComponentLearning_2.DrawArea.resources
+C:\Users\Razvan\Desktop\MachineLearningApp\obj\Debug\ComponentLearning_4.Form4.resources

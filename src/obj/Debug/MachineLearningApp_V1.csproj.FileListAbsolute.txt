@@ -1,0 +1,15 @@
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\MachineLearningApp_V1.exe.config
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\MachineLearningApp_V1.exe
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\MachineLearningApp_V1.pdb
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\alglibnet2.dll
+D:\Others\Visual Studio\source\MachineLearningApp_V1\bin\Debug\ControlUtilizator.dll
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.Form1.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.Form2.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.Form3.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.Properties.Resources.resources
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.csproj.GenerateResource.cache
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.csproj.CoreCompileInputs.cache
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.csproj.CopyComplete
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.exe
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.pdb
+D:\Others\Visual Studio\source\MachineLearningApp_V1\obj\Debug\MachineLearningApp_V1.csprojAssemblyReference.cache
