@@ -42,7 +42,8 @@ namespace ComponentLearning_1
             img = null;
             //path = null;
             string rootDirectory = System.IO.Path.GetFullPath(@"..\..\");
-            path = rootDirectory + "/Teste/test1.png";
+            //path = rootDirectory + "/Teste/test1.png";
+            path = rootDirectory + "/Teste/test2.jpg";
 
             if (path != null)
             {
