@@ -899,6 +899,16 @@ namespace ComponentLearning_1
 
         }
 
+        private void imageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void clusteringToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            analizaMultidimensionalaToolStripMenuItem_Click(sender, e);
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
 

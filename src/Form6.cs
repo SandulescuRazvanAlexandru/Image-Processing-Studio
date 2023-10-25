@@ -16,8 +16,10 @@ namespace MachineLearningApp
         public Form6()
         {
             InitializeComponent();
-            textBox1.Text = "\r\nComponente pentru Învățare asistată\r\n\r\nCoordonator științific: Prof.Univ.Dr. Smeureanu Ion\r\n\r\nAbsolvent: Săndulescu Răzvan-Alexandru" +
-                "\r\n\r\nVă mulțumesc!";
+            //textBox1.Text = "\r\nComponente pentru Învățare asistată\r\n\r\nCoordonator științific: Prof.Univ.Dr. Smeureanu Ion\r\n\r\nAbsolvent: Săndulescu Răzvan-Alexandru" +
+            //    "\r\n\r\nVă mulțumesc!";
+            textBox1.Text = "\r\nImage Processing Studio\r\n\r\nGraduate: Săndulescu Răzvan-Alexandru\r\n\r\nScientific Coordinator: Prof.Univ.Dr. Smeureanu Ion" +
+               "\r\n\r\nThank you!";
             textBox1.TextAlign = HorizontalAlignment.Center;
             textBox1.Font = new Font(textBox1.Font.FontFamily, 16);
         }

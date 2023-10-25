@@ -48,10 +48,6 @@ namespace ComponentLearning_1
             this.scalareToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.scatterPlotToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.fluxToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.procesariNumericeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clusterizareToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sVMToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.indiciBiometriciToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.faceDetectionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.no1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.no6CropToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -62,6 +58,7 @@ namespace ComponentLearning_1
             this.no3EyesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.no5LandmarksToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.clusteringToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.drawArea = new ComponentLearning_2.DrawArea();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -71,7 +68,6 @@ namespace ComponentLearning_1
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.fileToolStripMenuItem,
             this.imageToolStripMenuItem,
-            this.procesariNumericeToolStripMenuItem,
             this.faceDetectionToolStripMenuItem,
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -97,7 +93,7 @@ namespace ComponentLearning_1
             // 
             this.openImageToolStripMenuItem.Name = "openImageToolStripMenuItem";
             this.openImageToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openImageToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.openImageToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             this.openImageToolStripMenuItem.Text = "Open";
             this.openImageToolStripMenuItem.Click += new System.EventHandler(this.OpenImage_Click);
             // 
@@ -105,23 +101,23 @@ namespace ComponentLearning_1
             // 
             this.webCameraToolStripMenuItem.Name = "webCameraToolStripMenuItem";
             this.webCameraToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.W)));
-            this.webCameraToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
-            this.webCameraToolStripMenuItem.Text = "Web camera ";
+            this.webCameraToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.webCameraToolStripMenuItem.Text = "Web Camera ";
             this.webCameraToolStripMenuItem.Click += new System.EventHandler(this.webCamModuleToolStripMenuItem_Click);
             // 
             // reloadInitialImageToolStripMenuItem
             // 
             this.reloadInitialImageToolStripMenuItem.Name = "reloadInitialImageToolStripMenuItem";
             this.reloadInitialImageToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.reloadInitialImageToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
-            this.reloadInitialImageToolStripMenuItem.Text = "Reload";
+            this.reloadInitialImageToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
+            this.reloadInitialImageToolStripMenuItem.Text = "Reload Image";
             this.reloadInitialImageToolStripMenuItem.Click += new System.EventHandler(this.reloadInitialImage_Click);
             // 
             // resizeDrawAreaToolStripMenuItem
             // 
             this.resizeDrawAreaToolStripMenuItem.Name = "resizeDrawAreaToolStripMenuItem";
             this.resizeDrawAreaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Z)));
-            this.resizeDrawAreaToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.resizeDrawAreaToolStripMenuItem.Size = new System.Drawing.Size(190, 22);
             this.resizeDrawAreaToolStripMenuItem.Text = "Resize Zoom";
             this.resizeDrawAreaToolStripMenuItem.Click += new System.EventHandler(this.resizeDrawAreaToolStripMenuItem_Click);
             // 
@@ -129,119 +125,90 @@ namespace ComponentLearning_1
             // 
             this.btnSaveImage.Name = "btnSaveImage";
             this.btnSaveImage.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.btnSaveImage.Size = new System.Drawing.Size(188, 22);
-            this.btnSaveImage.Text = "Save";
+            this.btnSaveImage.Size = new System.Drawing.Size(212, 22);
+            this.btnSaveImage.Text = "Save Image";
             this.btnSaveImage.Click += new System.EventHandler(this.SaveImage_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(188, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(212, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exit_Click);
             // 
             // imageToolStripMenuItem
             // 
             this.imageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.edgeDetectionToolStripMenuItem1,
+            this.scalareToolStripMenuItem1,
+            this.scatterPlotToolStripMenuItem,
+            this.fluxToolStripMenuItem,
             this.makeGrayToolStripMenuItem1,
             this.negativeToolStripMenuItem,
             this.blurToolStripMenuItem,
             this.resizeToolStripMenuItem,
-            this.edgeDetectionToolStripMenuItem1,
-            this.scalareToolStripMenuItem1,
-            this.scatterPlotToolStripMenuItem,
-            this.fluxToolStripMenuItem});
+            this.clusteringToolStripMenuItem});
             this.imageToolStripMenuItem.Name = "imageToolStripMenuItem";
-            this.imageToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.imageToolStripMenuItem.Text = "Image";
+            this.imageToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.imageToolStripMenuItem.Text = "Modules";
+            this.imageToolStripMenuItem.Click += new System.EventHandler(this.imageToolStripMenuItem_Click);
             // 
             // makeGrayToolStripMenuItem1
             // 
             this.makeGrayToolStripMenuItem1.Name = "makeGrayToolStripMenuItem1";
-            this.makeGrayToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.makeGrayToolStripMenuItem1.Text = "Make Gray";
+            this.makeGrayToolStripMenuItem1.Size = new System.Drawing.Size(203, 22);
+            this.makeGrayToolStripMenuItem1.Text = "Grayscale Conversion";
             this.makeGrayToolStripMenuItem1.Click += new System.EventHandler(this.btnMakeGray_Click);
             // 
             // negativeToolStripMenuItem
             // 
             this.negativeToolStripMenuItem.Name = "negativeToolStripMenuItem";
-            this.negativeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.negativeToolStripMenuItem.Text = "Negative";
+            this.negativeToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.negativeToolStripMenuItem.Text = "Color Inversion";
             this.negativeToolStripMenuItem.Click += new System.EventHandler(this.negative_Click);
             // 
             // blurToolStripMenuItem
             // 
             this.blurToolStripMenuItem.Name = "blurToolStripMenuItem";
-            this.blurToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.blurToolStripMenuItem.Text = "Blur";
+            this.blurToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.blurToolStripMenuItem.Text = "Blurring";
             this.blurToolStripMenuItem.Click += new System.EventHandler(this.blurr_Click);
             // 
             // resizeToolStripMenuItem
             // 
             this.resizeToolStripMenuItem.Name = "resizeToolStripMenuItem";
-            this.resizeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.resizeToolStripMenuItem.Text = "Resize";
+            this.resizeToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.resizeToolStripMenuItem.Text = "Resizing";
             this.resizeToolStripMenuItem.Click += new System.EventHandler(this.Resize_Click);
             // 
             // edgeDetectionToolStripMenuItem1
             // 
             this.edgeDetectionToolStripMenuItem1.Name = "edgeDetectionToolStripMenuItem1";
-            this.edgeDetectionToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.edgeDetectionToolStripMenuItem1.Size = new System.Drawing.Size(203, 22);
             this.edgeDetectionToolStripMenuItem1.Text = "Edge Detection";
             this.edgeDetectionToolStripMenuItem1.Click += new System.EventHandler(this.btnEdgeDetection_Click);
             // 
             // scalareToolStripMenuItem1
             // 
             this.scalareToolStripMenuItem1.Name = "scalareToolStripMenuItem1";
-            this.scalareToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.scalareToolStripMenuItem1.Text = "Scalare";
+            this.scalareToolStripMenuItem1.Size = new System.Drawing.Size(203, 22);
+            this.scalareToolStripMenuItem1.Text = "Scale";
             this.scalareToolStripMenuItem1.Click += new System.EventHandler(this.btnScalare_Click);
             // 
             // scatterPlotToolStripMenuItem
             // 
             this.scatterPlotToolStripMenuItem.Name = "scatterPlotToolStripMenuItem";
-            this.scatterPlotToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.scatterPlotToolStripMenuItem.Text = "Scatter Plot";
+            this.scatterPlotToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.scatterPlotToolStripMenuItem.Text = "Scatter Plot Visualization";
             this.scatterPlotToolStripMenuItem.Click += new System.EventHandler(this.btnScatterPlot_Click);
             // 
             // fluxToolStripMenuItem
             // 
             this.fluxToolStripMenuItem.Name = "fluxToolStripMenuItem";
-            this.fluxToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.fluxToolStripMenuItem.Text = "Flux";
+            this.fluxToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.fluxToolStripMenuItem.Text = "Flow";
             this.fluxToolStripMenuItem.Click += new System.EventHandler(this.fluxToolStripMenuItem_Click);
-            // 
-            // procesariNumericeToolStripMenuItem
-            // 
-            this.procesariNumericeToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clusterizareToolStripMenuItem,
-            this.sVMToolStripMenuItem,
-            this.indiciBiometriciToolStripMenuItem});
-            this.procesariNumericeToolStripMenuItem.Name = "procesariNumericeToolStripMenuItem";
-            this.procesariNumericeToolStripMenuItem.Size = new System.Drawing.Size(120, 20);
-            this.procesariNumericeToolStripMenuItem.Text = "Procesari numerice";
-            // 
-            // clusterizareToolStripMenuItem
-            // 
-            this.clusterizareToolStripMenuItem.Name = "clusterizareToolStripMenuItem";
-            this.clusterizareToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.clusterizareToolStripMenuItem.Text = "Clusterizare";
-            this.clusterizareToolStripMenuItem.Click += new System.EventHandler(this.analizaMultidimensionalaToolStripMenuItem_Click);
-            // 
-            // sVMToolStripMenuItem
-            // 
-            this.sVMToolStripMenuItem.Name = "sVMToolStripMenuItem";
-            this.sVMToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.sVMToolStripMenuItem.Text = "SVM";
-            this.sVMToolStripMenuItem.Click += new System.EventHandler(this.sVMToolStripMenuItem_Click);
-            // 
-            // indiciBiometriciToolStripMenuItem
-            // 
-            this.indiciBiometriciToolStripMenuItem.Name = "indiciBiometriciToolStripMenuItem";
-            this.indiciBiometriciToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.indiciBiometriciToolStripMenuItem.Text = "Indici biometrici";
-            this.indiciBiometriciToolStripMenuItem.Click += new System.EventHandler(this.indiciBiometriciToolStripMenuItem_Click);
             // 
             // faceDetectionToolStripMenuItem
             // 
@@ -255,8 +222,8 @@ namespace ComponentLearning_1
             this.no3EyesToolStripMenuItem,
             this.no5LandmarksToolStripMenuItem});
             this.faceDetectionToolStripMenuItem.Name = "faceDetectionToolStripMenuItem";
-            this.faceDetectionToolStripMenuItem.Size = new System.Drawing.Size(96, 20);
-            this.faceDetectionToolStripMenuItem.Text = "Face detection";
+            this.faceDetectionToolStripMenuItem.Size = new System.Drawing.Size(97, 20);
+            this.faceDetectionToolStripMenuItem.Text = "Face Detection";
             // 
             // no1ToolStripMenuItem
             // 
@@ -321,6 +288,13 @@ namespace ComponentLearning_1
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
+            // clusteringToolStripMenuItem
+            // 
+            this.clusteringToolStripMenuItem.Name = "clusteringToolStripMenuItem";
+            this.clusteringToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.clusteringToolStripMenuItem.Text = "Clustering";
+            this.clusteringToolStripMenuItem.Click += new System.EventHandler(this.clusteringToolStripMenuItem_Click);
+            // 
             // drawArea
             // 
             this.drawArea.Bitmap = null;
@@ -371,10 +345,6 @@ namespace ComponentLearning_1
         private System.Windows.Forms.ToolStripMenuItem blurToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem fluxToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem resizeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem procesariNumericeToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clusterizareToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sVMToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem indiciBiometriciToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
         public DrawArea drawArea;
         private System.Windows.Forms.ToolStripMenuItem webCameraToolStripMenuItem;
@@ -388,6 +358,7 @@ namespace ComponentLearning_1
         private System.Windows.Forms.ToolStripMenuItem no6CropToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem no25CropToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem no35CropToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem clusteringToolStripMenuItem;
     }
 }
 
